@@ -1,0 +1,45 @@
+% !TEX TS-program = luatex
+% Awesome Source CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/awesome-neue-latex-cv
+%
+% Author:
+% Christophe Roger (Darwiin)
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+\documentclass[localFont,alternative]{yaac-another-awesome-cv}
+\name{Nazmus Sakib}{Miazi}
+\tagline{Ph.D. student, UNC Charlotte}
+%\photo{2.5cm}{darwiin}
+\socialinfo{
+	\linkedin{sakibnm}
+	\github{sakibnm}\\
+	\smartphone{(980) 585 8916}
+	\email{mmiazi@uncc.edu}\\
+	\address{644 Lex Drive, Charlotte, North Carolina 28262}\\
+	\infos{Born on December 01, 1991 in Bangladesh}
+}
+
+\begin{document}
+
+	\makecvheader
+
+	\makecvfooter
+		{\textsc{\today}} % \selectlanguage{english}\today
+		{\textsc{Christophe Roger - CV}}
+		{\thepage}
+
+	\input{section_headline}
+	\input{section_publications}				% Section intérêts
+	\input{section_projets}
+	\input{section_scolarite}				% Section scholarité
+	\input{section_competences}				% Section compétence
+	\input{section_experience_short}		% Section expérience
+	\input{section_langues}					% Section langues
+	\input{section_references} 				% Section références
+
+
+\end{document}
